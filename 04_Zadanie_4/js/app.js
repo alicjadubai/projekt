@@ -1,9 +1,14 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { createRoot } from "react-dom/client";
 
-/**
- * Nie modyfikuj kodu poniżej!
- */
+const App = () => {
+  return (
+    <>
+      <h1> Hello World</h1>
+      <span>React Rules</span>
+    </>
+  );
+};
 const container = document.getElementById("app");
 const root = createRoot(container);
 root.render(<App />);
