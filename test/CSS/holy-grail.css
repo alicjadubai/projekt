@@ -110,6 +110,7 @@
   font-size: 46px;
   font-weight: 100;
   color: #fff;
+  display: flex;
 }
 .wordCarousel div {
   overflow: hidden;
